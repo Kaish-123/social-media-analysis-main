@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "social_media_analysis"
+version = "0.1.0"
+description = "End-to-end scalable data pipeline for social media analysis"
+authors = ["koksang <koksanggl@gmail.com>"]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.11"
+hydra-core = "^1.2.0"
+hydra-colorlog = "^1.2.0"
+pathlib = "^1.0.1"
+attrs = "^21.4.0"
+confluent-kafka = "^1.9.0"
+dbt-bigquery = "^1.2.0"
+google-cloud-bigquery = "^2.34.3"
+google-cloud-bigquery-storage = "^2.14.1"
+snscrape = "^0.4.3"
+pytest = "^7.1.2"
+loguru = "^0.6.0"
+ray = { extras = ["default"], version = "^1.13.0" }
+tqdm = "^4.64.0"
+PyYAML = "^6.0"
+protobuf = "^3.20.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

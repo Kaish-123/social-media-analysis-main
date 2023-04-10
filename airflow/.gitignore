@@ -1,0 +1,8 @@
+# folder
+logs
+credentials/*.json
+
+# files
+
+# wildcards
+**/__pycache__

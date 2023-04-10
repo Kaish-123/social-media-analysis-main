@@ -1,0 +1,11 @@
+# folder
+.env
+dist
+outputs
+
+# files
+unittests.cfg
+
+# wildcards
+airflow.*
+*.log
